@@ -1,8 +1,8 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  masks: {
     id: 1,
-    title: "Hats",
-    routeName: "hats",
+    title: "Masks",
+    routeName: "masks",
     items: [
       {
         id: 1,
@@ -60,10 +60,10 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  sanitize: {
     id: 2,
-    title: "Sneakers",
-    routeName: "sneakers",
+    title: "Hand Sanitizers",
+    routeName: "sanitize",
     items: [
       {
         id: 10,
@@ -115,10 +115,10 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  cproducts: {
     id: 3,
-    title: "Jackets",
-    routeName: "jackets",
+    title: "Cleaning Products",
+    routeName: "cproducts",
     items: [
       {
         id: 18,
@@ -152,10 +152,10 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  covid19: {
     id: 4,
-    title: "Womens",
-    routeName: "womens",
+    title: "COVID-19 Stuff",
+    routeName: "covid19",
     items: [
       {
         id: 23,
@@ -201,10 +201,10 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  food: {
     id: 5,
-    title: "Mens",
-    routeName: "mens",
+    title: "Canned Food",
+    routeName: "food",
     items: [
       {
         id: 30,
@@ -244,6 +244,6 @@ const SHOP_DATA = [
       },
     ],
   },
-];
+};
 
 export default SHOP_DATA;
