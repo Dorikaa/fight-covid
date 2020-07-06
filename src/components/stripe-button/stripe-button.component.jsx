@@ -9,6 +9,7 @@ const StripeCheckoutButton = ({ price }) => {
   const onToken = (token) => {
     console.log(token);
     alert("Payment Successful");
+    window.location = "/";
   };
 
   return (
@@ -19,7 +20,7 @@ const StripeCheckoutButton = ({ price }) => {
       shippingAddress
       image="https://image.flaticon.com/icons/svg/3022/3022487.svg"
       description={`Your total is $${price}`}
-      amout={priceForStripe}
+      amount={priceForStripe}
       panelLabel="Pay Now"
       token={onToken}
       stripeKey={publishableKey}
